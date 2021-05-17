@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+    <!-- HTMLとは -->
+<p>タグで囲んで段落指定することで実現できます。</p>
+
+
+
+<!-- 最初のhtml要素を作ってみる -->
+<em>emタグで囲むと斜めのイタリック体になります。</em>
+
+
+
+<!-- 要素のネスト -->
+<!--正しいネストになってます。-->
+<p>strongタグで囲んだ部分だけ<strong>強調</strong>されるようになります。</p>
+<!-- 間違っているネストになってます。-->
+<p>正しくネストされないと<strong>予期しない結果となります。</p></strong>
+
+
+
+<!-- ブロック要素とインライン要素 -->
+<em>インライン要素</em><em>なので</em><em>斜体になるだけ</em>
+
+<p>ブロック要素</p><p>スペースを開けて</p><p>行として独立しています</p>
+
+
+
+<!-- 空要素 全ての要素が開始タグ・コンテンツ・終了タグのパターンに従っているわけではない-->
+<img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png">
+<p>imgタグを用いfire foxの画像を出力</p>
+
+
+
+<!-- 属性 href=アドレス指定　title=リンクについての追加情報　target_blank=新しいタグで開く-->
+<p>fire foxブラウザのdownloadページです<a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank">これがリンクです！</a>.</p>
+
+
+
+<!-- 真偽値属性=属性値のない属性-->
+<p>左がinput要素無効（打ち込めない）、右がinput要素有効（打ち込める）</p>
+<input type="text" disabled>
+
+<input type="text">
+  </body>
+</html>
